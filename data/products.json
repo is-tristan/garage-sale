@@ -5,14 +5,78 @@
             {
                 "id": "office-01",
                 "name": "UGreen LP258 Vertical Laptop Stand (Silver)",
-                "product-description": "A sleek vertical laptop stand that saves desk space and improves airflow around your device. Adjustable with from 12mm to 26mm width to fit various laptop sizes. Made from durable aluminum alloy with silicone pads to prevent scratches.",
+                "product-description": "Great tool to save desk space if you have a primary monitor and don't use your laptops screen. Great condition, no scratches or dents.",
                 "original-price": 55.00,
-                "sale-price": 25.00,
+                "sale-price": 20.00,
                 "purchase-date": "2025-07-15",
                 "purchased-from": "Veli",
+                "original-packaging": "N/A",
                 "product-gallery": [
                     "images/laptop-stand/laptop-stand-1.jpg",
                     "images/laptop-stand/laptop-stand-2.jpg"
+                ]
+            },
+            {
+                "id": "office-02",
+                "name": "Height Adjustable Desk 160x65cm (White)",
+                "product-description": "Height adjust desk with single electric motor. Perfect for single monitor setups. Basically new and works perfectly. No scratches or dents.",
+                "original-price": 550.00,
+                "sale-price": 300.00,
+                "purchase-date": "2025-10-24",
+                "purchased-from": "Denizo Furniture",
+                "original-packaging": "N/A",
+                "product-gallery": [
+                    "images/height-adjustable-desk/desk-1.jpg",
+                    "images/height-adjustable-desk/desk-2.jpg",
+                    "images/height-adjustable-desk/desk-3.jpg"
+                ],
+                "product-videos": [
+                    "videos/height-adjustable-desk/desk-video.mp4"
+                ]
+            },
+            {
+                "id": "office-03",
+                "name": "Office Chair #1 (Light Grey)",
+                "product-description": "Comfortable office chair, adjustable mechanism still works 100%.",
+                "original-price": 160.00,
+                "sale-price": 80.00,
+                "purchase-date": "2025-06-10",
+                "purchased-from": "Domino",
+                "original-packaging": "N/A",
+                "product-gallery": [
+                    "images/office-chair-1/office-chair-1.jpg",
+                    "images/office-chair-1/office-chair-2.jpg",
+                    "images/office-chair-1/office-chair-3.jpg"
+                ]
+            },
+            {
+                "id": "office-04",
+                "name": "Office Chair #2 (Black)",
+                "product-description": "Comfortable office chair, adjustable mechanism still works 100%.",
+                "original-price": 160.00,
+                "sale-price": 70.00,
+                "purchase-date": "2024-07-05",
+                "purchased-from": "Denizo Furniture",
+                "original-packaging": "N/A",
+                "product-gallery": [
+                    "images/office-chair-2/office-chair-1.jpg",
+                    "images/office-chair-2/office-chair-2.jpg",
+                    "images/office-chair-2/office-chair-3.jpg"
+                ]
+            },
+            {
+                "id": "office-05",
+                "name": "Childrens Office / Study Chair (Grey)",
+                "product-description": "Office chair suitable for children or students. Adjustable height and comfortable design.",
+                "original-price": 100.00,
+                "sale-price": 35.00,
+                "purchase-date": "2024-07-01",
+                "purchased-from": "Domino",
+                "original-packaging": "N/A",
+                "product-gallery": [
+                    "images/office-chair-3/office-chair-1.jpg",
+                    "images/office-chair-3/office-chair-2.jpg",
+                    "images/office-chair-3/office-chair-3.jpg"
                 ]
             }
         ]
@@ -22,12 +86,280 @@
         "products": [
             {
                 "id": "monitor-01",
-                "name": "Aiwa MZ2734-K 27 2K QHD IPS 165Hz 1ms",
-                "product-description": "A 27-inch 2K QHD monitor with an IPS panel that delivers vibrant colors and wide viewing angles. Features a high refresh rate of 165Hz and a fast 1ms response time, making it ideal for gaming and multimedia use. Equipped with HDMI and DisplayPort inputs.",
+                "name": "Aiwa MZ2734-K 27 2K QHD IPS 165Hz 1ms HDR10",
+                "product-description": "Great monitor in excellent condition. Used for a few months. No dead pixels or scratches. Has FreeSync (works with GSync) and HDR10. Comes with all original cables, packaging. Includes a Gembird desk mount for 2 stacked monitors.",
                 "original-price": 570.00,
                 "sale-price": 350.00,
                 "purchase-date": "2025-01-22",
-                "purchased-from": "Prime Store"
+                "purchased-from": "Prime Store",
+                "original-packaging": "Yes",
+                "product-gallery": [
+                    "images/monitor/aiwa/monitor-1.jpg",
+                    "images/monitor/aiwa/monitor-2.jpg",
+                    "images/monitor/aiwa/monitor-3.jpg"
+                ]
+            },
+            {
+                "id": "monitor-02",
+                "name": "HyperX Armada 27 2K QHD IPS 165Hz 1ms HDR10 (has 1 dead pixel, see images)",
+                "product-description": "Fantastic monitor with FreeSync (works with GSync) and HDR10. Bought it second hand off of My Market and it had these issues already. Still in excellent condition besides the 1 dead pixel. Comes with all the original cables and the desk mount (has a scratch on the desk mount, see images).",
+                "original-price": 700.00,
+                "sale-price": 275.00,
+                "purchase-date": "2024-06-26",
+                "purchased-from": "My Market (second-hand)",
+                "original-packaging": "Yes",
+                "product-gallery": [
+                    "images/monitor/hyperx/monitor-1.jpg",
+                    "images/monitor/hyperx/monitor-2.jpg",
+                    "images/monitor/hyperx/monitor-3.jpg"
+                ]
+            },
+            {
+                "id": "monitor-03",
+                "name": "2E H2724B 27 2K QHD 100Hz 4.5ms",
+                "product-description": "Used as a secondary monitor for a few months. In perfect condition with no dead pixels or scratches. Comes with all original cables and packaging.",
+                "original-price": 469.00,
+                "sale-price": 250.00,
+                "purchase-date": "2024-06-26",
+                "purchased-from": "Prime Store",
+                "original-packaging": "Yes",
+                "product-gallery": [
+                    "images/monitor/2e/monitor-1.jpg",
+                    "images/monitor/2e/monitor-2.jpg",
+                    "images/monitor/2e/monitor-3.jpg"
+                ]
+            }
+        ]
+    },
+    {
+        "product-category": "computer-peripherals",
+        "products": [
+            {
+                "id": "peripheral-01",
+                "name": "HyperX SoloCast Microphone (Black)",
+                "product-description": "Used only for a few months, basically like new. Comes with original packaging and type-c cable.",
+                "original-price": 159.00,
+                "sale-price": 90.00,
+                "purchase-date": "2025-07-02",
+                "purchased-from": "PC Room",
+                "original-packaging": "Yes",
+                "product-gallery": [
+                    "images/microphone/hyperx-solocast/microphone-1.jpg",
+                    "images/microphone/hyperx-solocast/microphone-2.jpg"
+                ]
+            },
+            {
+                "id": "peripheral-02",
+                "name": "Logitech GPro Tenkey-less Mechanical Gaming Keyboard",
+                "product-description": "Keyboard still works fine but the RGB light on the F10 key doesn't work when it goes blue. Also the CTRL keycap's plastic feet broke, so it wobbles a bit when pressed but still works perfectly fine.",
+                "original-price": 150.00,
+                "sale-price": 35.00,
+                "purchase-date": "2024-06-15",
+                "purchased-from": "My Market (second-hand)",
+                "original-packaging": "No",
+                "product-gallery": [
+                    "images/keyboard/logitech-gpro-tenkeyless/keyboard-1.jpg",
+                    "images/keyboard/logitech-gpro-tenkeyless/keyboard-2.jpg"
+                ]
+            },
+            {
+                "id": "peripheral-03",
+                "name": "Generic HP keyboard and mouse combo (Black)",
+                "product-description": "Used for a few days only. It's practically new. Mouse was never used. Comes with original packaging.",
+                "original-price": 50.00,
+                "sale-price": 25.00,
+                "purchase-date": "2024-06-15",
+                "purchased-from": "My Market (second-hand)",
+                "original-packaging": "Yes",
+                "product-gallery": [
+                    "images/keyboard/generic-hp-keyboard-mouse/keyboard-1.jpg",
+                    "images/keyboard/generic-hp-keyboard-mouse/keyboard-2.jpg"
+                ]
+            }
+        ]
+    },
+    {
+        "product-category": "computer-components",
+        "products": [
+            {
+                "id": "component-01",
+                "name": "Thermal Right Frozen Edge 240 mm ARGB Black",
+                "product-description": "Used for a few months, works perfectly. No leaks or issues. Comes with original packaging and all accessories (minus thermal paste).",
+                "original-price": 215.00,
+                "sale-price": 150.00,
+                "purchase-date": "2025-08-06",
+                "purchased-from": "PC Room",
+                "original-packaging": "Yes",
+                "product-gallery": [
+                    "images/components/thermal-right-frozen-edge-240mm-argb-black/component-1.jpg",
+                    "images/components/thermal-right-frozen-edge-240mm-argb-black/component-2.jpg"
+                ]
+            },
+            {
+                "id": "component-02",
+                "name": "1ST Player UV5 Black Mid-Tower Tempered Glass Case (Includes 3x Fans)",
+                "product-description": "Case is in perfect condition, no scratches or dents. Comes with original packaging.",
+                "original-price": 145.00,
+                "sale-price": 85.00,
+                "purchase-date": "2025-08-06",
+                "purchased-from": "PC Room",
+                "original-packaging": "Yes",
+                "product-gallery": [
+                    "images/components/1st-player-uv5-black-mid-tower-case/component-1.jpg",
+                    "images/components/1st-player-uv5-black-mid-tower-case/component-2.jpg"
+                ]
+            },
+            {
+                "id": "component-03",
+                "name": "1st Player 850w Gold Power Supply (Non-Modular) ",
+                "product-description": "Used for a few months, works perfectly. No issues. Comes with original packaging.",
+                "original-price": 150.00,
+                "sale-price": 95.00,
+                "purchase-date": "2025-08-06",
+                "purchased-from": "My Market (brand-new)",
+                "original-packaging": "Yes",
+                "product-gallery": [
+                    "images/components/1st-player-850w-gold-power-supply-non-modular/component-1.jpg",
+                    "images/components/1st-player-850w-gold-power-supply-non-modular/component-2.jpg"
+                ]
+            }
+        ]
+    },
+    {
+        "product-category": "furniture",
+        "products": [
+            {
+                "id": "furn-01",
+                "name": "Xiaomi Deerma 60W Fan (White)",
+                "product-description": "Floor fan with 3 speed setting. There's some aesthetic damage to the base (see images) but it works perfectly fine. Used for a few months only.",
+                "original-price": 145.00,
+                "sale-price": 50.00,
+                "purchase-date": "2025-06-24",
+                "purchased-from": "Prime Store",
+                "original-packaging": "No",
+                "product-gallery": [
+                    "images/furniture/xiaomi-deerma-60w-fan-white/fan-1.jpg",
+                    "images/furniture/xiaomi-deerma-60w-fan-white/fan-2.jpg",
+                    "images/furniture/xiaomi-deerma-60w-fan-white/fan-3.jpg"
+                ],
+                "product-videos": [
+                    "videos/furniture/xiaomi-deerma-60w-fan-white/fan-video.mp4"
+                ]
+            },
+            {
+                "id": "furn-02",
+                "name": "Atmosphera Tripod Floor Lamp (Dark Grey)",
+                "product-description": "Floor lamp with tripod stand (no bulb included). In good condition with some small dents on the shader (see images).",
+                "original-price": 126.00,
+                "sale-price": 50.00,
+                "purchase-date": "2025-02-10",
+                "purchased-from": "Veli",
+                "original-packaging": "No",
+                "product-gallery": [
+                    "images/furniture/atmosphera-tripod-floor-lamp-dark-grey/lamp-1.jpg",
+                    "images/furniture/atmosphera-tripod-floor-lamp-dark-grey/lamp-2.jpg",
+                    "images/furniture/atmosphera-tripod-floor-lamp-dark-grey/lamp-3.jpg"
+                ]
+            },
+            {
+                "id": "furn-03",
+                "name": "Xiaomi Smart Air Purifier 4 Pro (White)",
+                "product-description": "In excellent condition, works perfectly. Filter has 60 days left on it. You can purchase a new filter from Zoommer (139 ₾). Link here: https://zoommer.ge/sakhlis-movla/xiaomi-smart-air-purifier-4-pro-filter-p36107",
+                "original-price": 679.00,
+                "sale-price": 250.00,
+                "purchase-date": "2025-01-02",
+                "purchased-from": "Zoommer",
+                "original-packaging": "No",
+                "product-gallery": [
+                    "images/furniture/xiaomi-smart-air-purifier-4-pro-white/purifier-1.jpg",
+                    "images/furniture/xiaomi-smart-air-purifier-4-pro-white/purifier-2.jpg",
+                    "images/furniture/xiaomi-smart-air-purifier-4-pro-white/purifier-3.jpg"
+                ]
+            }
+        ]
+    },
+    {
+        "product-category": "kitchen-appliances",
+        "products": [
+            {
+                "id": "appliance-01",
+                "name": "Midea 5L Air Fryer (Black)",
+                "product-description": "Works 100% and is in excellent condition.",
+                "original-price": 229.00,
+                "sale-price": 50.00,
+                "purchase-date": "2025-01-04",
+                "purchased-from": "Prime Store",
+                "original-packaging": "No",
+                "product-gallery": [
+                    "images/appliances/midea-5l-air-fryer-black/fryer-1.jpg",
+                    "images/appliances/midea-5l-air-fryer-black/fryer-2.jpg",
+                    "images/appliances/midea-5l-air-fryer-black/fryer-3.jpg"
+                ]
+            },
+            {
+                "id": "appliance-02",
+                "name": "Kenwood Multifunctional Blender with Food Processor (Silver)",
+                "product-description": "Works 100% and is in excellent condition. Comes with all original accessories.",
+                "original-price": 534.00,
+                "sale-price": 150.00,
+                "purchase-date": "2025-01-04",
+                "purchased-from": "Prime Store",
+                "original-packaging": "No",
+                "product-gallery": [
+                    "images/appliances/kenwood-multifunctional-blender-silver/blender-1.jpg",
+                    "images/appliances/kenwood-multifunctional-blender-silver/blender-2.jpg",
+                    "images/appliances/kenwood-multifunctional-blender-silver/blender-3.jpg"
+                ]
+            },
+            {
+                "id": "appliance-03",
+                "name": "Ardesto Coffee Machine with built-in Grinder (Black & Silver)",
+                "product-description": "Works 100% and is in excellent condition. Comes with all original accessories.",
+                "original-price": 275.00,
+                "sale-price": 75.00,
+                "purchase-date": "2025-01-04",
+                "purchased-from": "Prime Store",
+                "original-packaging": "No",
+                "product-gallery": [
+                    "images/appliances/ardesto-coffee-machine-black-silver/coffee-machine-1.jpg",
+                    "images/appliances/ardesto-coffee-machine-black-silver/coffee-machine-2.jpg",
+                    "images/appliances/ardesto-coffee-machine-black-silver/coffee-machine-3.jpg"
+                ]
+            }
+        ]
+    },
+    {
+        "product-category": "gym-equipment",
+        "products": [
+            {
+                "id": "gym-01",
+                "name": "Adjustable Dumbbell and Barbell Set - Up to 25kg",
+                "product-description": "Dumbbell and barbell set with adjustable weights. 2x 10kg plates, 4x 2.5kg plates, 4x 1.25kg plates, 4x 0.5kg plates. Acceptable with signs of wear.",
+                "original-price": 350.00,
+                "sale-price": 100.00,
+                "purchase-date": "2024-08-10",
+                "purchased-from": "My Market (second-hand)",
+                "original-packaging": "Yes",
+                "product-gallery": [
+                    "images/gym/dumbbell-set/dumbbell-1.jpg",
+                    "images/gym/dumbbell-set/dumbbell-2.jpg",
+                    "images/gym/dumbbell-set/dumbbell-3.jpg"
+                ]
+            },
+            {
+                "id": "gym-02",
+                "name": "Xiaomi Walking Pad R1 Pro Treadmill (Black & Grey)",
+                "product-description": "There's an issue with the wire that detects if the treadmill is folded or not. You just have to adjust the wire a bit and it works perfectly fine. Remote controls battery compartment's plastic clip is broken, so I've used a small rubber band to keep it closed (see images). Other than that, the treadmill is in excellent condition and works perfectly fine.",
+                "original-price": 1399.00,
+                "sale-price": 350.00,
+                "purchase-date": "2024-08-10",
+                "purchased-from": "My Market (second-hand)",
+                "original-packaging": "Yes",
+                "product-gallery": [
+                    "images/gym/dumbbell-set/dumbbell-1.jpg",
+                    "images/gym/dumbbell-set/dumbbell-2.jpg",
+                    "images/gym/dumbbell-set/dumbbell-3.jpg"
+                ]
             }
         ]
     }
