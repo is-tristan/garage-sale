@@ -1,19 +1,33 @@
 [
     {
-        "product-category": "Electronics",
+        "product-category": "office-equipment",
         "products": [
             {
-                "id": "E01",
+                "id": "office-01",
                 "name": "UGreen LP258 Vertical Laptop Stand (Silver)",
                 "product-description": "A sleek vertical laptop stand that saves desk space and improves airflow around your device. Adjustable with from 12mm to 26mm width to fit various laptop sizes. Made from durable aluminum alloy with silicone pads to prevent scratches.",
                 "original-price": 55.00,
                 "sale-price": 25.00,
                 "purchase-date": "2025-07-15",
-                "pruchased-from": "Veli",
+                "purchased-from": "Veli",
                 "product-gallery": [
                     "images/laptop-stand/laptop-stand-1.jpg",
                     "images/laptop-stand/laptop-stand-2.jpg"
                 ]
+            }
+        ]
+    },
+    {
+        "product-category": "computer-monitors",
+        "products": [
+            {
+                "id": "monitor-01",
+                "name": "Aiwa MZ2734-K 27 2K QHD IPS 165Hz 1ms",
+                "product-description": "A 27-inch 2K QHD monitor with an IPS panel that delivers vibrant colors and wide viewing angles. Features a high refresh rate of 165Hz and a fast 1ms response time, making it ideal for gaming and multimedia use. Equipped with HDMI and DisplayPort inputs.",
+                "original-price": 570.00,
+                "sale-price": 350.00,
+                "purchase-date": "2025-01-22",
+                "purchased-from": "Prime Store"
             }
         ]
     }
