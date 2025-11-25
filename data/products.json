@@ -10,7 +10,8 @@
                 "sale-price": 20.00,
                 "purchase-date": "2025-07-15",
                 "purchased-from": "Veli",
-                "original-packaging": "N/A",
+                "original-packaging": false,
+                "condition": "Like New",
                 "product-gallery": [
                     "images/laptop-stand/laptop-stand-1.jpg",
                     "images/laptop-stand/laptop-stand-2.jpg"
@@ -24,7 +25,8 @@
                 "sale-price": 300.00,
                 "purchase-date": "2025-10-24",
                 "purchased-from": "Denizo Furniture",
-                "original-packaging": "N/A",
+                "original-packaging": false,
+                "condition": "Like New",
                 "product-gallery": [
                     "images/height-adjustable-desk/desk-1.jpg",
                     "images/height-adjustable-desk/desk-2.jpg",
@@ -42,7 +44,8 @@
                 "sale-price": 80.00,
                 "purchase-date": "2025-06-10",
                 "purchased-from": "Domino",
-                "original-packaging": "N/A",
+                "original-packaging": false,
+                "condition": "Good",
                 "product-gallery": [
                     "images/office-chair-1/office-chair-1.jpg",
                     "images/office-chair-1/office-chair-2.jpg",
@@ -57,7 +60,8 @@
                 "sale-price": 70.00,
                 "purchase-date": "2024-07-05",
                 "purchased-from": "Denizo Furniture",
-                "original-packaging": "N/A",
+                "original-packaging": false,
+                "condition": "Good",
                 "product-gallery": [
                     "images/office-chair-2/office-chair-1.jpg",
                     "images/office-chair-2/office-chair-2.jpg",
@@ -72,7 +76,8 @@
                 "sale-price": 35.00,
                 "purchase-date": "2024-07-01",
                 "purchased-from": "Domino",
-                "original-packaging": "N/A",
+                "original-packaging": false,
+                "condition": "Like New",
                 "product-gallery": [
                     "images/office-chair-3/office-chair-1.jpg",
                     "images/office-chair-3/office-chair-2.jpg",
@@ -92,7 +97,8 @@
                 "sale-price": 350.00,
                 "purchase-date": "2025-01-22",
                 "purchased-from": "Prime Store",
-                "original-packaging": "Yes",
+                "original-packaging": true,
+                "condition": "Like New",
                 "product-gallery": [
                     "images/monitor/aiwa/monitor-1.jpg",
                     "images/monitor/aiwa/monitor-2.jpg",
@@ -107,7 +113,8 @@
                 "sale-price": 275.00,
                 "purchase-date": "2024-06-26",
                 "purchased-from": "My Market (second-hand)",
-                "original-packaging": "Yes",
+                "original-packaging": true,
+                "condition": "Good",
                 "product-gallery": [
                     "images/monitor/hyperx/monitor-1.jpg",
                     "images/monitor/hyperx/monitor-2.jpg",
@@ -122,7 +129,8 @@
                 "sale-price": 250.00,
                 "purchase-date": "2024-06-26",
                 "purchased-from": "Prime Store",
-                "original-packaging": "Yes",
+                "original-packaging": true,
+                "condition": "Like New",
                 "product-gallery": [
                     "images/monitor/2e/monitor-1.jpg",
                     "images/monitor/2e/monitor-2.jpg",
@@ -142,7 +150,8 @@
                 "sale-price": 90.00,
                 "purchase-date": "2025-07-02",
                 "purchased-from": "PC Room",
-                "original-packaging": "Yes",
+                "original-packaging": true,
+                "condition": "Like New",
                 "product-gallery": [
                     "images/microphone/hyperx-solocast/microphone-1.jpg",
                     "images/microphone/hyperx-solocast/microphone-2.jpg"
@@ -157,6 +166,7 @@
                 "purchase-date": "2024-06-15",
                 "purchased-from": "My Market (second-hand)",
                 "original-packaging": "No",
+                "condition": "Good",
                 "product-gallery": [
                     "images/keyboard/logitech-gpro-tenkeyless/keyboard-1.jpg",
                     "images/keyboard/logitech-gpro-tenkeyless/keyboard-2.jpg"
@@ -170,7 +180,8 @@
                 "sale-price": 25.00,
                 "purchase-date": "2024-06-15",
                 "purchased-from": "My Market (second-hand)",
-                "original-packaging": "Yes",
+                "original-packaging": true,
+                "condition": "Like New",
                 "product-gallery": [
                     "images/keyboard/generic-hp-keyboard-mouse/keyboard-1.jpg",
                     "images/keyboard/generic-hp-keyboard-mouse/keyboard-2.jpg"
@@ -189,7 +200,8 @@
                 "sale-price": 150.00,
                 "purchase-date": "2025-08-06",
                 "purchased-from": "PC Room",
-                "original-packaging": "Yes",
+                "original-packaging": true,
+                "condition": "Like New",
                 "product-gallery": [
                     "images/components/thermal-right-frozen-edge-240mm-argb-black/component-1.jpg",
                     "images/components/thermal-right-frozen-edge-240mm-argb-black/component-2.jpg"
@@ -203,7 +215,8 @@
                 "sale-price": 85.00,
                 "purchase-date": "2025-08-06",
                 "purchased-from": "PC Room",
-                "original-packaging": "Yes",
+                "original-packaging": true,
+                "condition": "Like New",
                 "product-gallery": [
                     "images/components/1st-player-uv5-black-mid-tower-case/component-1.jpg",
                     "images/components/1st-player-uv5-black-mid-tower-case/component-2.jpg"
@@ -217,7 +230,8 @@
                 "sale-price": 95.00,
                 "purchase-date": "2025-08-06",
                 "purchased-from": "My Market (brand-new)",
-                "original-packaging": "Yes",
+                "original-packaging": true,
+                "condition": "Like New",
                 "product-gallery": [
                     "images/components/1st-player-850w-gold-power-supply-non-modular/component-1.jpg",
                     "images/components/1st-player-850w-gold-power-supply-non-modular/component-2.jpg"
@@ -237,6 +251,7 @@
                 "purchase-date": "2025-06-24",
                 "purchased-from": "Prime Store",
                 "original-packaging": "No",
+                "condition": "Good",
                 "product-gallery": [
                     "images/furniture/xiaomi-deerma-60w-fan-white/fan-1.jpg",
                     "images/furniture/xiaomi-deerma-60w-fan-white/fan-2.jpg",
@@ -255,6 +270,7 @@
                 "purchase-date": "2025-02-10",
                 "purchased-from": "Veli",
                 "original-packaging": "No",
+                "condition": "Good",
                 "product-gallery": [
                     "images/furniture/atmosphera-tripod-floor-lamp-dark-grey/lamp-1.jpg",
                     "images/furniture/atmosphera-tripod-floor-lamp-dark-grey/lamp-2.jpg",
@@ -270,6 +286,7 @@
                 "purchase-date": "2025-01-02",
                 "purchased-from": "Zoommer",
                 "original-packaging": "No",
+                "condition": "Like New",
                 "product-gallery": [
                     "images/furniture/xiaomi-smart-air-purifier-4-pro-white/purifier-1.jpg",
                     "images/furniture/xiaomi-smart-air-purifier-4-pro-white/purifier-2.jpg",
@@ -290,6 +307,7 @@
                 "purchase-date": "2025-01-04",
                 "purchased-from": "Prime Store",
                 "original-packaging": "No",
+                "condition": "Good",
                 "product-gallery": [
                     "images/appliances/midea-5l-air-fryer-black/fryer-1.jpg",
                     "images/appliances/midea-5l-air-fryer-black/fryer-2.jpg",
@@ -305,6 +323,7 @@
                 "purchase-date": "2025-01-04",
                 "purchased-from": "Prime Store",
                 "original-packaging": "No",
+                "condition": "Like New",
                 "product-gallery": [
                     "images/appliances/kenwood-multifunctional-blender-silver/blender-1.jpg",
                     "images/appliances/kenwood-multifunctional-blender-silver/blender-2.jpg",
@@ -320,6 +339,7 @@
                 "purchase-date": "2025-01-04",
                 "purchased-from": "Prime Store",
                 "original-packaging": "No",
+                "condition": "Like New",
                 "product-gallery": [
                     "images/appliances/ardesto-coffee-machine-black-silver/coffee-machine-1.jpg",
                     "images/appliances/ardesto-coffee-machine-black-silver/coffee-machine-2.jpg",
@@ -339,7 +359,8 @@
                 "sale-price": 100.00,
                 "purchase-date": "2024-08-10",
                 "purchased-from": "My Market (second-hand)",
-                "original-packaging": "Yes",
+                "original-packaging": true,
+                "condition": "Good",
                 "product-gallery": [
                     "images/gym/dumbbell-set/dumbbell-1.jpg",
                     "images/gym/dumbbell-set/dumbbell-2.jpg",
@@ -354,7 +375,8 @@
                 "sale-price": 350.00,
                 "purchase-date": "2024-08-10",
                 "purchased-from": "My Market (second-hand)",
-                "original-packaging": "Yes",
+                "original-packaging": true,
+                "condition": "Good",
                 "product-gallery": [
                     "images/gym/dumbbell-set/dumbbell-1.jpg",
                     "images/gym/dumbbell-set/dumbbell-2.jpg",
