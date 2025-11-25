@@ -1,0 +1,32 @@
+:root {
+    font-size: 1rem;
+
+    // Colours
+    --primary: #131bff;
+    --primaryRgb: 19, 27, 255;
+    --light: #ffffff;
+    --lightRgb: 255, 255, 255;
+    --lightAlt: #d9d9d9;
+    --lightAltRgb: 217, 217, 217;
+    --dark: #1d1d1d;
+    --darkRgb: 29, 29, 29;
+    // Fonts
+    --heading: var(--font-geist-sans), ui-sans-serif, sans-serif;
+    --text: var(--font-geist-sans), ui-sans-serif, sans-serif;
+
+    // Borders & Radius
+    --btnRadius: 0.25rem;
+    --borderRadius: 1rem;
+    --boxShadow: 2px 4px 40px 0 rgba(var(--darkRgb), 0.1);
+
+    // Animations
+    --ease: all 0.25s ease;
+
+    // Header
+    --topbarHeight: 3rem;
+    --headerHeight: 7.5rem;
+    --mobileHeaderHeight: 5rem;
+
+    // Layout
+    --layoutMaxWidth: 90%;
+}

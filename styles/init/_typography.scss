@@ -1,0 +1,110 @@
+/*
+* =============================================
+* Headings
+* ============================================= 
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 120% !important;
+    text-wrap: balance;
+    margin: 0;
+    padding: 0;
+
+    @media (width >=768px) {
+        text-align: center;
+    }
+
+    @media (width >=1200px) {
+        text-align: left;
+    }
+}
+
+
+h1 {
+    font-size: 2rem;
+    font-weight: 500;
+
+    @media (width >=768px) {
+        font-size: 2.5rem;
+    }
+
+    @media (width >=1200px) {
+        font-size: 3rem;
+    }
+}
+
+h2 {
+    font-size: 1.75rem;
+
+    @media (width >=768px) {
+        font-size: 2rem;
+    }
+
+    @media (width >=1200px) {
+        font-size: 2.5rem;
+    }
+
+}
+
+h3 {
+    font-size: 1.25rem;
+
+    @media (width >=768px) {
+        font-size: 1.5rem;
+    }
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+h5 {
+    font-size: 1.1rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+/*
+* =============================================
+* Text, lists, inputs, links
+* ============================================= 
+*/
+
+p,
+ul,
+ol {
+    font-size: 0.875rem;
+    line-height: 175%;
+    font-weight: 450;
+    text-wrap: pretty;
+
+    @media (width >=768px) {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    @media (width >=1200px) {
+        text-align: left;
+    }
+
+    @media (width >=1512px) {
+        font-size: 1.1rem;
+    }
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding: 0;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}

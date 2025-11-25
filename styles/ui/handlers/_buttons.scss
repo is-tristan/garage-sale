@@ -1,0 +1,101 @@
+@use "../../init/mixins" as *;
+
+/*
+* =============================================
+* Buttons
+* ============================================= 
+*/
+
+.buttons {
+    display: flex;
+    flex-flow: row wrap !important;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0;
+    width: 100%;
+
+    &.centered {
+        justify-content: center;
+    }
+
+    @media (width >=768px) {
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    @media (width >=1200px) {
+        justify-content: flex-start;
+
+        &.end {
+            justify-content: flex-end;
+        }
+    }
+}
+
+.btn {
+    .elementor-button {
+        & {
+            @include button();
+        }
+    }
+
+    &.primary .elementor-button {
+        background: var(--gradient);
+        border-color: var(--primary);
+        color: var(--dark);
+
+        svg {
+            fill: var(--dark);
+        }
+
+        &:hover {
+            transform: translateY(-0.15rem);
+        }
+    }
+
+    &.dark .elementor-button {
+        background: var(--dark);
+        border-color: var(--dark);
+        color: var(--light);
+        filter: brightness(0.925);
+
+        svg {
+            fill: var(--primary);
+        }
+
+        &:hover {
+            filter: brightness(1);
+        }
+    }
+
+    &.light .elementor-button {
+        background: var(--light);
+        border-color: var(--light);
+        color: var(--dark);
+
+        &:hover {
+            filter: brightness(1);
+        }
+    }
+
+    &.transparent .elementor-button {
+        background: transparent;
+        color: var(--light);
+        border-color: var(--light);
+
+        &:hover {
+            background: var(--light);
+            color: var(--dark);
+        }
+    }
+
+    &.transparent.dark .elementor-button {
+        background: transparent;
+        color: var(--dark);
+        border-color: var(--dark);
+
+        svg {
+            fill: var(--primary);
+        }
+    }
+}
