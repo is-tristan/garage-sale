@@ -13,8 +13,8 @@
                 "original-packaging": false,
                 "condition": "Like New",
                 "product-gallery": [
-                    "images/laptop-stand/laptop-stand-1.jpg",
-                    "images/laptop-stand/laptop-stand-2.jpg"
+                    "images/products/laptop-stand/laptop-stand-1.webp",
+                    "images/products/laptop-stand/laptop-stand-2.webp"
                 ]
             },
             {
@@ -28,9 +28,8 @@
                 "original-packaging": false,
                 "condition": "Like New",
                 "product-gallery": [
-                    "images/height-adjustable-desk/desk-1.jpg",
-                    "images/height-adjustable-desk/desk-2.jpg",
-                    "images/height-adjustable-desk/desk-3.jpg"
+                    "images/products/standing-desk/standing-desk-1.webp",
+                    "images/products/standing-desk/standing-desk-2.webp"
                 ],
                 "product-videos": [
                     "videos/height-adjustable-desk/desk-video.mp4"
@@ -47,9 +46,9 @@
                 "original-packaging": false,
                 "condition": "Good",
                 "product-gallery": [
-                    "images/office-chair-1/office-chair-1.jpg",
-                    "images/office-chair-1/office-chair-2.jpg",
-                    "images/office-chair-1/office-chair-3.jpg"
+                    "images/products/office-chair-grey/office-chair-grey-1.webp",
+                    "images/products/office-chair-grey/office-chair-grey-2.webp",
+                    "images/products/office-chair-grey/office-chair-grey-3.webp"
                 ]
             },
             {
@@ -63,9 +62,9 @@
                 "original-packaging": false,
                 "condition": "Good",
                 "product-gallery": [
-                    "images/office-chair-2/office-chair-1.jpg",
-                    "images/office-chair-2/office-chair-2.jpg",
-                    "images/office-chair-2/office-chair-3.jpg"
+                    "images/products/office-chair-black/office-chair-black-1.webp",
+                    "images/products/office-chair-black/office-chair-black-2.webp",
+                    "images/products/office-chair-black/office-chair-black-3.webp"
                 ]
             },
             {
@@ -79,9 +78,9 @@
                 "original-packaging": false,
                 "condition": "Like New",
                 "product-gallery": [
-                    "images/office-chair-3/office-chair-1.jpg",
-                    "images/office-chair-3/office-chair-2.jpg",
-                    "images/office-chair-3/office-chair-3.jpg"
+                    "images/products/office-chair-child/office-chair-child-1.webp",
+                    "images/products/office-chair-child/office-chair-child-2.webp",
+                    "images/products/office-chair-child/office-chair-child-3.webp"
                 ]
             }
         ]
@@ -100,9 +99,11 @@
                 "original-packaging": true,
                 "condition": "Like New",
                 "product-gallery": [
-                    "images/monitor/aiwa/monitor-1.jpg",
-                    "images/monitor/aiwa/monitor-2.jpg",
-                    "images/monitor/aiwa/monitor-3.jpg"
+                    "images/products/aiwa-monitor/aiwa-monitor-1.webp",
+                    "images/products/aiwa-monitor/aiwa-monitor-2.webp",
+                    "images/products/aiwa-monitor/aiwa-monitor-3.webp",
+                    "images/products/aiwa-monitor/aiwa-monitor-4.webp",
+                    "images/products/aiwa-monitor/aiwa-monitor-5.webp"
                 ]
             },
             {
@@ -116,9 +117,12 @@
                 "original-packaging": true,
                 "condition": "Good",
                 "product-gallery": [
-                    "images/monitor/hyperx/monitor-1.jpg",
-                    "images/monitor/hyperx/monitor-2.jpg",
-                    "images/monitor/hyperx/monitor-3.jpg"
+                    "images/products/hyper-x/hyper-x-monitor-1.webp",
+                    "images/products/hyper-x/hyper-x-monitor-2.webp",
+                    "images/products/hyper-x/hyper-x-monitor-3.webp",
+                    "images/products/hyper-x/hyper-x-monitor-4.webp",
+                    "images/products/hyper-x/hyper-x-monitor-5.webp",
+                    "images/products/hyper-x/hyper-x-monitor-6.webp"
                 ]
             },
             {
@@ -132,9 +136,9 @@
                 "original-packaging": true,
                 "condition": "Like New",
                 "product-gallery": [
-                    "images/monitor/2e/monitor-1.jpg",
-                    "images/monitor/2e/monitor-2.jpg",
-                    "images/monitor/2e/monitor-3.jpg"
+                    "images/products/2e-monitor/2e-monitor-1.webp",
+                    "images/products/2e-monitor/2e-monitor-2.webp",
+                    "images/products/2e-monitor/2e-monitor-3.webp"
                 ]
             }
         ]
@@ -153,8 +157,7 @@
                 "original-packaging": true,
                 "condition": "Like New",
                 "product-gallery": [
-                    "images/microphone/hyperx-solocast/microphone-1.jpg",
-                    "images/microphone/hyperx-solocast/microphone-2.jpg"
+                    "images/products/hyper-x-solocast/hyper-x-solocast-1.webp"
                 ]
             },
             {
@@ -168,8 +171,10 @@
                 "original-packaging": "No",
                 "condition": "Good",
                 "product-gallery": [
-                    "images/keyboard/logitech-gpro-tenkeyless/keyboard-1.jpg",
-                    "images/keyboard/logitech-gpro-tenkeyless/keyboard-2.jpg"
+                    "images/products/logitech-g-pro/logitech-g-pro-1.webp",
+                    "images/products/logitech-g-pro/logitech-g-pro-2.webp",
+                    "images/products/logitech-g-pro/logitech-g-pro-3.webp",
+                    "images/products/logitech-g-pro/logitech-g-pro-4.webp"
                 ]
             },
             {
@@ -183,8 +188,9 @@
                 "original-packaging": true,
                 "condition": "Like New",
                 "product-gallery": [
-                    "images/keyboard/generic-hp-keyboard-mouse/keyboard-1.jpg",
-                    "images/keyboard/generic-hp-keyboard-mouse/keyboard-2.jpg"
+                    "images/products/hp-keyboard-combo/hp-keyboard-combo-1.webp",
+                    "images/products/hp-keyboard-combo/hp-keyboard-combo-2.webp",
+                    "images/products/hp-keyboard-combo/hp-keyboard-combo-3.webp"
                 ]
             }
         ]
@@ -203,8 +209,8 @@
                 "original-packaging": true,
                 "condition": "Like New",
                 "product-gallery": [
-                    "images/components/thermal-right-frozen-edge-240mm-argb-black/component-1.jpg",
-                    "images/components/thermal-right-frozen-edge-240mm-argb-black/component-2.jpg"
+                    "images/products/thermalright-cooler/thermalright-cooler-1.webp",
+                    "images/products/thermalright-cooler/thermalright-cooler-2.webp"
                 ]
             },
             {
@@ -218,24 +224,22 @@
                 "original-packaging": true,
                 "condition": "Like New",
                 "product-gallery": [
-                    "images/components/1st-player-uv5-black-mid-tower-case/component-1.jpg",
-                    "images/components/1st-player-uv5-black-mid-tower-case/component-2.jpg"
+                    "images/products/case/case-1.webp",
+                    "images/products/case/case-2.webp",
+                    "images/products/case/case-3.webp",
+                    "images/products/case/case-4.webp"
                 ]
             },
             {
                 "id": "component-03",
-                "name": "1st Player 850w Gold Power Supply (Non-Modular) ",
+                "name": "1st Player 850w Gold Power Supply (Non-Modular)",
                 "product-description": "Used for a few months, works perfectly. No issues. Comes with original packaging.",
                 "original-price": 150.00,
                 "sale-price": 95.00,
                 "purchase-date": "2025-08-06",
                 "purchased-from": "My Market (brand-new)",
                 "original-packaging": true,
-                "condition": "Like New",
-                "product-gallery": [
-                    "images/components/1st-player-850w-gold-power-supply-non-modular/component-1.jpg",
-                    "images/components/1st-player-850w-gold-power-supply-non-modular/component-2.jpg"
-                ]
+                "condition": "Like New"
             }
         ]
     },
@@ -253,9 +257,10 @@
                 "original-packaging": "No",
                 "condition": "Good",
                 "product-gallery": [
-                    "images/furniture/xiaomi-deerma-60w-fan-white/fan-1.jpg",
-                    "images/furniture/xiaomi-deerma-60w-fan-white/fan-2.jpg",
-                    "images/furniture/xiaomi-deerma-60w-fan-white/fan-3.jpg"
+                    "images/products/fan/fan-1.webp",
+                    "images/products/fan/fan-2.webp",
+                    "images/products/fan/fan-3.webp",
+                    "images/products/fan/fan-4.webp"
                 ],
                 "product-videos": [
                     "videos/furniture/xiaomi-deerma-60w-fan-white/fan-video.mp4"
@@ -272,9 +277,12 @@
                 "original-packaging": "No",
                 "condition": "Good",
                 "product-gallery": [
-                    "images/furniture/atmosphera-tripod-floor-lamp-dark-grey/lamp-1.jpg",
-                    "images/furniture/atmosphera-tripod-floor-lamp-dark-grey/lamp-2.jpg",
-                    "images/furniture/atmosphera-tripod-floor-lamp-dark-grey/lamp-3.jpg"
+                    "images/products/standing-lamp/standing-lamp-1.webp",
+                    "images/products/standing-lamp/standing-lamp-2.webp",
+                    "images/products/standing-lamp/standing-lamp-3.webp",
+                    "images/products/standing-lamp/standing-lamp-4.webp",
+                    "images/products/standing-lamp/standing-lamp-5.webp",
+                    "images/products/standing-lamp/standing-lamp-6.webp"
                 ]
             },
             {
@@ -288,9 +296,9 @@
                 "original-packaging": "No",
                 "condition": "Like New",
                 "product-gallery": [
-                    "images/furniture/xiaomi-smart-air-purifier-4-pro-white/purifier-1.jpg",
-                    "images/furniture/xiaomi-smart-air-purifier-4-pro-white/purifier-2.jpg",
-                    "images/furniture/xiaomi-smart-air-purifier-4-pro-white/purifier-3.jpg"
+                    "images/products/air-purifier/air-purifier-1.webp",
+                    "images/products/air-purifier/air-purifier-2.webp",
+                    "images/products/air-purifier/air-purifier-3.webp"
                 ]
             }
         ]
@@ -309,9 +317,9 @@
                 "original-packaging": "No",
                 "condition": "Good",
                 "product-gallery": [
-                    "images/appliances/midea-5l-air-fryer-black/fryer-1.jpg",
-                    "images/appliances/midea-5l-air-fryer-black/fryer-2.jpg",
-                    "images/appliances/midea-5l-air-fryer-black/fryer-3.jpg"
+                    "images/products/air-fryer/air-fryer-1.webp",
+                    "images/products/air-fryer/air-fryer-2.webp",
+                    "images/products/air-fryer/air-fryer-3.webp"
                 ]
             },
             {
@@ -325,9 +333,10 @@
                 "original-packaging": "No",
                 "condition": "Like New",
                 "product-gallery": [
-                    "images/appliances/kenwood-multifunctional-blender-silver/blender-1.jpg",
-                    "images/appliances/kenwood-multifunctional-blender-silver/blender-2.jpg",
-                    "images/appliances/kenwood-multifunctional-blender-silver/blender-3.jpg"
+                    "images/products/blender/blender-1.webp",
+                    "images/products/blender/blender-2.webp",
+                    "images/products/blender/blender-3.webp",
+                    "images/products/blender/blender-4.webp"
                 ]
             },
             {
@@ -341,9 +350,9 @@
                 "original-packaging": "No",
                 "condition": "Like New",
                 "product-gallery": [
-                    "images/appliances/ardesto-coffee-machine-black-silver/coffee-machine-1.jpg",
-                    "images/appliances/ardesto-coffee-machine-black-silver/coffee-machine-2.jpg",
-                    "images/appliances/ardesto-coffee-machine-black-silver/coffee-machine-3.jpg"
+                    "images/products/coffee-machine/coffee-machine-1.webp",
+                    "images/products/coffee-machine/coffee-machine-2.webp",
+                    "images/products/coffee-machine/coffee-machine-3.webp"
                 ]
             }
         ]
@@ -362,9 +371,10 @@
                 "original-packaging": true,
                 "condition": "Good",
                 "product-gallery": [
-                    "images/gym/dumbbell-set/dumbbell-1.jpg",
-                    "images/gym/dumbbell-set/dumbbell-2.jpg",
-                    "images/gym/dumbbell-set/dumbbell-3.jpg"
+                    "images/products/weights/weights-1.webp",
+                    "images/products/weights/weights-2.webp",
+                    "images/products/weights/weights-3.webp",
+                    "images/products/weights/weights-4.webp"
                 ]
             },
             {
@@ -378,9 +388,10 @@
                 "original-packaging": true,
                 "condition": "Good",
                 "product-gallery": [
-                    "images/gym/dumbbell-set/dumbbell-1.jpg",
-                    "images/gym/dumbbell-set/dumbbell-2.jpg",
-                    "images/gym/dumbbell-set/dumbbell-3.jpg"
+                    "images/products/walking-pad/walking-pad-1.webp",
+                    "images/products/walking-pad/walking-pad-2.webp",
+                    "images/products/walking-pad/walking-pad-3.webp",
+                    "images/products/walking-pad/walking-pad-4.webp"
                 ]
             }
         ]

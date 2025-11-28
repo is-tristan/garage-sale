@@ -5,24 +5,31 @@ import ProductGallery from "./product-gallery";
 import styles from "@/styles/components/ui/products/products.module.scss";
 
 // Icons
-import { CalendarBlankIcon, StorefrontIcon, PackageIcon, SealCheckIcon } from "@phosphor-icons/react/dist/ssr";
+import { CalendarBlankIcon, StorefrontIcon, PackageIcon } from "@phosphor-icons/react/dist/ssr";
 
 export default function productItem({
-
-    id = "",
-    productCategory = "",
-    name = "",
-    productDescription = "",
-    discountedPrice = "",
-    originalPrice = "",
-    salePrice = "",
-    age = "",
-    purchasedFrom = "",
-    originalPackaging = false,
-    condition = "",
-    productGallery = [],
+    productCategory = string,
+    id = number,
+    name = string,
+    percentageDiscount = null,
+    condition = string,
+    originalPrice = number,
+    salePrice = number,
+    age = string,
+    purchasedFrom = string,
+    originalPackaging = boolean,
+    productGallery = null,
+    description = string,
 
 }) {
+
+    // Format category name for display
+    const formatCategory = (category) => {
+        return category
+            .split('-')
+            .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+            .join(' ');
+    };
 
     return (
 
@@ -30,9 +37,11 @@ export default function productItem({
 
             <div className={styles.productGalleryContainer}>
 
-                {discountedPrice && <span>{discountedPrice}</span>}
+                {condition && <span className={`${styles.conditionBadge} ${condition === 'Like New' ? styles.new : styles.used}`}>{condition}</span>}
 
-                {productGallery.length > 0 && <ProductGallery name={name} productGallery={productGallery} />}
+                {percentageDiscount && <span className={styles.discountBadge}>-{percentageDiscount}%</span>}
+
+                {/* {productGallery.length > 0 && <ProductGallery name={name} productGallery={productGallery} />} */}
 
             </div>
 
@@ -40,7 +49,7 @@ export default function productItem({
 
                 <div className={styles.productHeader}>
 
-                    {productCategory && <span className={styles.productCategory}>{productCategory}</span>}
+                    {productCategory && <span className={styles.productCategory}>{formatCategory(productCategory)}</span>}
 
                     {name && <h2 className={styles.productName}>{name}</h2>}
 
@@ -62,15 +71,13 @@ export default function productItem({
 
                     {originalPackaging && <div title="Original Packaging" className={styles.productMetaItem}><PackageIcon /> Original Packaging</div>}
 
-                    {condition && <div title="Condition" className={styles.productMetaItem}><SealCheckIcon /> {condition}</div>}
-
                 </div>
-                F
+
             </div>
 
-            <dialog className={styles.productDescription} open>
+            <dialog className={styles.productDescription}>
 
-                {productDescription && <p>{productDescription}</p>}
+                {description && <p>{description}</p>}
 
             </dialog>
 
