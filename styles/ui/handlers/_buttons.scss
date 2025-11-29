@@ -36,41 +36,12 @@
     @include button();
 
     &.primary {
-        background: var(--gradient);
+        background: var(--primary);
         border-color: var(--primary);
-        color: var(--dark);
-
-        svg {
-            fill: var(--dark);
-        }
-
-        &:hover {
-            transform: translateY(-0.15rem);
-        }
-    }
-
-    &.dark {
-        background: var(--dark);
-        border-color: var(--dark);
         color: var(--light);
-        filter: brightness(0.925);
 
         svg {
-            fill: var(--primary);
-        }
-
-        &:hover {
-            filter: brightness(1);
-        }
-    }
-
-    &.light {
-        background: var(--light);
-        border-color: var(--light);
-        color: var(--dark);
-
-        &:hover {
-            filter: brightness(1);
+            fill: var(--light);
         }
     }
 
@@ -83,15 +54,29 @@
             background: var(--light);
             color: var(--dark);
         }
-    }
 
-    &.transparent.dark {
-        background: transparent;
-        color: var(--dark);
-        border-color: var(--dark);
+        &.dark {
+            background: transparent;
+            color: var(--dark);
+            border-color: var(--dark);
 
-        svg {
-            fill: var(--primary);
+            svg {
+                fill: var(--primary);
+            }
+        }
+
+        &.primary {
+            background: transparent;
+            color: var(--primary);
+            border-color: var(--primary);
+
+            svg {
+                fill: var(--primary);
+            }
+
+            &:hover {
+                background: rgba(var(--primaryRgb), 0.1);
+            }
         }
     }
 }

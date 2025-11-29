@@ -1,18 +1,30 @@
 "use client"
 
+// React
+import { useState } from "react";
+
 // Init Splide
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
+
+// Lightbox
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
 
 // Next
 import Image from "next/image";
 
 // Styles
-import styles from "@/styles/components/ui/products/products.module.scss";
+import styles from "@/styles/components/ui/products/product-item.module.scss";
 
-export default function productGallery({ name = "", productGallery = [] }) {
+export default function productGallery({ name = "", productGallery = [], productVideo = [] }) {
+
+    const [openLightbox, setOpenLightbox] = useState(false);
+    const [lightboxIndex, setLightboxIndex] = useState(0);
 
     const slideOptions = {
+        rewind: true,
+        rewindByDrag: true,
         perPage: 1,
         perMove: 1,
         rewind: true,
@@ -20,7 +32,11 @@ export default function productGallery({ name = "", productGallery = [] }) {
         arrows: false,
         pagination: true,
         gap: 0,
-    }
+        classes: {
+            pagination: `splide__pagination ${styles.productPagination}`,
+            page: `splide__pagination__page ${styles.productPaginationPage}`,
+        },
+    };
 
     return (
 
@@ -30,7 +46,14 @@ export default function productGallery({ name = "", productGallery = [] }) {
 
                 {productGallery.map((imageSrc, index) => (
 
-                    <SplideSlide className={styles.productSlide} key={index}>
+                    <SplideSlide
+                        className={styles.productSlide}
+                        key={index}
+                        onClick={() => {
+                            setLightboxIndex(index);
+                            setOpenLightbox(true);
+                        }}
+                    >
 
                         <Image
                             className={styles.productImage}
@@ -41,11 +64,34 @@ export default function productGallery({ name = "", productGallery = [] }) {
                             style={{ objectFit: 'cover' }}
                         />
 
+                        {productVideo[index] && (
+                            <video
+                                poster={`/${imageSrc}`}
+                                src={productVideo[index]}
+                                controls
+                                preload="none"
+                                className={styles.productVideo}
+                            >
+                                Your browser does not support the video tag.
+                            </video>
+                        )}
+
                     </SplideSlide>
 
                 ))}
 
             </Splide>
+
+            <Lightbox
+                open={openLightbox}
+                close={() => setOpenLightbox(false)}
+                index={lightboxIndex}
+                slides={productGallery.map((imageSrc) => ({ src: `/${imageSrc}` }))}
+                carousel={{ finite: true, preload: 0 }}
+                styles={{
+                    container: { backgroundColor: "rgba(0, 0, 0, 0.95)" },
+                }}
+            />
 
         </>
 

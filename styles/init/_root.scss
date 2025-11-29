@@ -2,15 +2,25 @@
     font-size: 1rem;
 
     // Colours
-    --primary: #131bff;
-    --primaryRgb: 19, 27, 255;
+    --primary: #5562ea;
+    --primaryRgb: 85, 98, 234;
     --light: #ffffff;
     --lightRgb: 255, 255, 255;
-    --lightAlt: #d9d9d9;
-    --lightAltRgb: 217, 217, 217;
-    --dark: #1d1d1d;
-    --darkRgb: 29, 29, 29;
-    
+    --lightAlt: #f9f9f9;
+    --lightAltRgb: 249, 249, 249;
+    --dark: #050E3C;
+    --darkRgb: 5, 14, 60;
+
+    // Info Colours
+    --success: #00ff41;
+    --successRgb: 0, 255, 65;
+    --info: #00a8ff;
+    --infoRgb: 0, 168, 255;
+    --caution: #ffaa00;
+    --cautionRgb: 255, 170, 0;
+    --danger: #ff0055;
+    --dangerRgb: 255, 0, 85;
+
     // Fonts
     --heading: var(--font-geist-sans), ui-sans-serif, sans-serif;
     --text: var(--font-geist-sans), ui-sans-serif, sans-serif;
@@ -18,7 +28,7 @@
     // Borders & Radius
     --btnRadius: 0.5rem;
     --borderRadius: 0.5rem;
-    --boxShadow: 2px 4px 20px 0 rgba(var(--darkRgb), 0.05);
+    --boxShadow: 2px 4px 10px 0 rgba(var(--darkRgb), 0.1);
 
     // Animations
     --ease: all 0.25s ease;
