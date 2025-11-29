@@ -22,3 +22,11 @@ export const calculateDiscountPercentage = (originalPrice, salePrice) => {
     const discount = ((originalPrice - salePrice) / originalPrice) * 100;
     return Math.round(discount);
 };
+
+// Format category name for display
+export const formatCategory = (category) => {
+    return category
+        .split('-')
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+        .join(' ');
+};

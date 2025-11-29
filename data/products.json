@@ -117,12 +117,12 @@
                 "original-packaging": true,
                 "condition": "Good",
                 "product-gallery": [
-                    "images/products/hyper-x/hyper-x-monitor-1.webp",
-                    "images/products/hyper-x/hyper-x-monitor-2.webp",
-                    "images/products/hyper-x/hyper-x-monitor-3.webp",
-                    "images/products/hyper-x/hyper-x-monitor-4.webp",
-                    "images/products/hyper-x/hyper-x-monitor-5.webp",
-                    "images/products/hyper-x/hyper-x-monitor-6.webp"
+                    "images/products/hyper-x-monitor/hyper-x-monitor-1.webp",
+                    "images/products/hyper-x-monitor/hyper-x-monitor-2.webp",
+                    "images/products/hyper-x-monitor/hyper-x-monitor-3.webp",
+                    "images/products/hyper-x-monitor/hyper-x-monitor-4.webp",
+                    "images/products/hyper-x-monitor/hyper-x-monitor-5.webp",
+                    "images/products/hyper-x-monitor/hyper-x-monitor-6.webp"
                 ]
             },
             {
@@ -386,13 +386,7 @@
                 "purchase-date": "2024-08-10",
                 "purchased-from": "My Market (second-hand)",
                 "original-packaging": true,
-                "condition": "Good",
-                "product-gallery": [
-                    "images/products/walking-pad/walking-pad-1.webp",
-                    "images/products/walking-pad/walking-pad-2.webp",
-                    "images/products/walking-pad/walking-pad-3.webp",
-                    "images/products/walking-pad/walking-pad-4.webp"
-                ]
+                "condition": "Good"
             }
         ]
     }

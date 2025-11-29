@@ -17,7 +17,7 @@ export default function productGrid() {
 
         <section id="products" className="row" aria-label="All products">
 
-            <div className="container">
+            <div className="container noPaddingTop">
 
                 <ProductNav />
 
@@ -40,7 +40,7 @@ export default function productGrid() {
                                 condition={product.condition}
                                 percentageDiscount={calculateDiscountPercentage(product['original-price'], product['sale-price'])}
                                 description={product['product-description']}
-                            // productGallery={product['product-gallery']}
+                                productGallery={product['product-gallery']}
                             />
 
                         ))

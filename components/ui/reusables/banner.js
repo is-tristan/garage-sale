@@ -1,11 +1,11 @@
-export default function Banner({ heading = "", text = "" }) {
+export default function Banner({ heading = "", text = "" , centered = true }) {
 
     return (
 
         <>
-            <section className="row banner">
+            <section className="row banner" aria-label="Banner Section">
 
-                <div className="container">
+                <div className={`container ${centered ? " centered" : undefined}`}>
 
                     <div className="heading">
 

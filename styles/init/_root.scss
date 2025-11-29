@@ -10,14 +10,15 @@
     --lightAltRgb: 217, 217, 217;
     --dark: #1d1d1d;
     --darkRgb: 29, 29, 29;
+    
     // Fonts
     --heading: var(--font-geist-sans), ui-sans-serif, sans-serif;
     --text: var(--font-geist-sans), ui-sans-serif, sans-serif;
 
     // Borders & Radius
-    --btnRadius: 0.25rem;
-    --borderRadius: 1rem;
-    --boxShadow: 2px 4px 40px 0 rgba(var(--darkRgb), 0.1);
+    --btnRadius: 0.5rem;
+    --borderRadius: 0.5rem;
+    --boxShadow: 2px 4px 20px 0 rgba(var(--darkRgb), 0.05);
 
     // Animations
     --ease: all 0.25s ease;

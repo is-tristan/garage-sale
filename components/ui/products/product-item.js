@@ -1,6 +1,9 @@
 // Components
 import ProductGallery from "./product-gallery";
 
+// Helpers
+import { formatCategory } from "@/utils/helpers/product-helpers";
+
 // Styles
 import styles from "@/styles/components/ui/products/products.module.scss";
 
@@ -18,22 +21,14 @@ export default function productItem({
     age = string,
     purchasedFrom = string,
     originalPackaging = boolean,
-    productGallery = null,
+    productGallery = [],
     description = string,
 
 }) {
 
-    // Format category name for display
-    const formatCategory = (category) => {
-        return category
-            .split('-')
-            .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-            .join(' ');
-    };
-
     return (
 
-        <article className={styles.productItem} key={id} aria-labelledby={`product-${id}-name`}>
+        <article className={`${styles.productItem} hasRadius hasShadow bgLight`} key={id} aria-labelledby={`product-${id}-name`}>
 
             <div className={styles.productGalleryContainer}>
 
@@ -41,7 +36,7 @@ export default function productItem({
 
                 {percentageDiscount && <span className={styles.discountBadge}>-{percentageDiscount}%</span>}
 
-                {/* {productGallery.length > 0 && <ProductGallery name={name} productGallery={productGallery} />} */}
+                {productGallery.length > 0 && <ProductGallery name={name} productGallery={productGallery} />}
 
             </div>
 

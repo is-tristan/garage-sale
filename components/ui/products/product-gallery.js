@@ -12,9 +12,21 @@ import styles from "@/styles/components/ui/products/products.module.scss";
 
 export default function productGallery({ name = "", productGallery = [] }) {
 
+    const slideOptions = {
+        perPage: 1,
+        perMove: 1,
+        rewind: true,
+        lazyLoad: 'sequential',
+        arrows: false,
+        pagination: true,
+        gap: 0,
+    }
+
     return (
+
         <>
-            <Splide className={styles.productSlider} options={{ perPage: 1, perMove: 1, rewind: true }} aria-label={`Product Gallery for ${name}`}>
+
+            <Splide className={styles.productSlider} options={slideOptions} aria-label={`Product Gallery for ${name}`}>
 
                 {productGallery.map((imageSrc, index) => (
 
@@ -22,7 +34,7 @@ export default function productGallery({ name = "", productGallery = [] }) {
 
                         <Image
                             className={styles.productImage}
-                            src={imageSrc}
+                            src={`/${imageSrc}`}
                             alt={`${name} - Image ${index + 1}`}
                             fill
                             sizes="(max-width: 768px) 100vw, 50vw"
