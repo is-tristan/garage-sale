@@ -16,6 +16,8 @@ export const metadata = {
 
 // Components
 import Footer from "@/components/layouts/footer";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export default function RootLayout({ children }) {
 
@@ -34,6 +36,10 @@ export default function RootLayout({ children }) {
         </main>
 
       </body>
+
+      <Analytics />
+
+      <SpeedInsights />
 
     </html>
 
