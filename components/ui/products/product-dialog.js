@@ -9,12 +9,12 @@ import ProductEnquire from "./product-enquire";
 import { XCircleIcon } from "@phosphor-icons/react/dist/ssr";
 
 export default function ProductDialog({
-    description = string,
-    name = string,
-    id = Number,
-    age = string,
-    purchasedFrom = string,
-    originalPackaging = boolean,
+    description,
+    name,
+    id,
+    age,
+    purchasedFrom,
+    originalPackaging,
 }) {
 
     return (

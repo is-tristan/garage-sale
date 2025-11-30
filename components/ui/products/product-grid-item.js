@@ -17,19 +17,19 @@ import { EyeIcon, WhatsappLogoIcon } from "@phosphor-icons/react/dist/ssr";
 const noImage = ["images/no-image.svg"];
 
 export default function productItem({
-    productCategory = string,
-    id = number,
-    name = string,
+    productCategory,
+    id,
+    name,
     percentageDiscount = null,
-    condition = string,
-    originalPrice = number,
-    salePrice = number,
-    age = string,
-    purchasedFrom = string,
-    originalPackaging = boolean,
+    condition,
+    originalPrice,
+    salePrice,
+    age,
+    purchasedFrom,
+    originalPackaging,
     productGallery = [],
     productVideo = [],
-    description = string,
+    description,
 
 }) {
 
