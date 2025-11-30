@@ -28,7 +28,7 @@ export default function productGallery({ name = "", productGallery = [], product
         perPage: 1,
         perMove: 1,
         rewind: true,
-        lazyLoad: 'sequential',
+        lazyLoad: 'nearby',
         arrows: false,
         pagination: true,
         gap: 0,
@@ -62,6 +62,7 @@ export default function productGallery({ name = "", productGallery = [], product
                             fill
                             sizes="(max-width: 768px) 100vw, 50vw"
                             style={{ objectFit: 'cover' }}
+                            loading="lazy"
                         />
 
                         {productVideo[index] && (

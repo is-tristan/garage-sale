@@ -6,10 +6,6 @@
     width: 100%;
     gap: 0.5rem;
 
-    @media (width >=768px) {
-        gap: 1rem;
-    }
-
     .productNavLink {
 
         &:hover,
@@ -23,10 +19,18 @@
 
 .productSort {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     gap: 0.5rem;
     width: 100%;
+
+    @media (width >=576px) {
+        justify-content: flex-end;
+    }
+
+    * {
+        font-family: var(--font-geist-sans);
+    }
 
     .customSelect {
         position: relative;
@@ -49,11 +53,13 @@
     .productSortSelect {
         display: flex;
         align-items: center;
-        background: var(--lightAlt);
+        background: var(---light);
         border: 1px solid rgba(var(--darkRgb), 0.15);
         border-radius: var(--btnRadius);
         padding: 0.5rem;
         min-width: 10rem;
         appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
     }
 }

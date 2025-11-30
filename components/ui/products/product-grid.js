@@ -31,7 +31,7 @@ export default function productGrid() {
 
         <section id="products" className="row" aria-label="All products">
 
-            <div className="container noPaddingTop">
+            <div className={`container ${styles.productGridContainer}`}>
 
                 <ProductNav activeCategory={activeCategory} onCategoryChange={setActiveCategory} />
 

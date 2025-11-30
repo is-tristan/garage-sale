@@ -1,6 +1,8 @@
 // Components
 import ProductGallery from "./product-gallery";
 import ProductMeta from "./product-meta";
+import ProductDialog from "./product-dialog";
+import ProductEnquire from "./product-enquire";
 
 // Helpers
 import { formatCategory } from "@/utils/helpers/product-helpers";
@@ -75,18 +77,18 @@ export default function productItem({
                     <span>View Description</span>
                 </button>
 
-                <a href={`https://wa.me/27605849019?text=I'm%20interested%20in%20${encodeURIComponent(name)}`} target="_blank" className={`btn primary ${styles.productEnquire}`}>
-                    <WhatsappLogoIcon weight="fill" size={16} />
-                    <span>Enquire on WhatsApp</span>
-                </a>
+                <ProductEnquire name={name} />
 
             </div>
 
-            <dialog className={styles.productDescription}>
-
-                {description && <p>{description}</p>}
-
-            </dialog>
+            <ProductDialog
+                id={id}
+                name={name}
+                description={description}
+                age={age}
+                purchasedFrom={purchasedFrom}
+                originalPackaging={originalPackaging}
+            />
 
         </article>
 
