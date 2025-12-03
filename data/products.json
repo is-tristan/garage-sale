@@ -4,21 +4,6 @@
         "products": [
             {
                 "id": "office-01",
-                "name": "UGreen LP258 Vertical Laptop Stand (Silver)",
-                "product-description": "Great tool to save desk space if you have a primary monitor and don't use your laptops screen. Great condition, no scratches or dents.",
-                "original-price": 55.00,
-                "sale-price": 20.00,
-                "purchase-date": "2025-07-15",
-                "purchased-from": "Veli",
-                "original-packaging": false,
-                "condition": "Like New",
-                "product-gallery": [
-                    "images/products/laptop-stand/laptop-stand-1.webp",
-                    "images/products/laptop-stand/laptop-stand-2.webp"
-                ]
-            },
-            {
-                "id": "office-02",
                 "name": "Height Adjustable Desk 160x65cm (White)",
                 "product-description": "Height adjust desk with single electric motor. Perfect for single monitor setups. Basically new and works perfectly. No scratches or dents.",
                 "original-price": 550.00,
@@ -32,11 +17,11 @@
                     "images/products/standing-desk/standing-desk-2.webp"
                 ],
                 "product-videos": [
-                    "videos/height-adjustable-desk/desk-video.mp4"
+                    "videos/standing-desk/standing-desk-video.webm"
                 ]
             },
             {
-                "id": "office-03",
+                "id": "office-02",
                 "name": "Office Chair #1 (Light Grey)",
                 "product-description": "Comfortable office chair, adjustable mechanism still works 100%.",
                 "original-price": 160.00,
@@ -52,7 +37,7 @@
                 ]
             },
             {
-                "id": "office-04",
+                "id": "office-03",
                 "name": "Office Chair #2 (Black)",
                 "product-description": "Comfortable office chair, adjustable mechanism still works 100%.",
                 "original-price": 160.00,
@@ -68,7 +53,7 @@
                 ]
             },
             {
-                "id": "office-05",
+                "id": "office-04",
                 "name": "Childrens Office / Study Chair (Grey)",
                 "product-description": "Office chair suitable for children or students. Adjustable height and comfortable design.",
                 "original-price": 100.00,
@@ -82,6 +67,20 @@
                     "images/products/office-chair-child/office-chair-child-2.webp",
                     "images/products/office-chair-child/office-chair-child-3.webp"
                 ]
+            },
+            {
+                "id": "office-05",
+                "name": "Canon Pixma E414 All-in-One Inkjet Printer (Black)",
+                "product-description": "Office chair suitable for children or students. Adjustable height and comfortable design. ",
+                "original-price": 199.00,
+                "sale-price": 85.00,
+                "purchase-date": "2025-11-18",
+                "purchased-from": "Prime Store",
+                "original-packaging": false,
+                "condition": "Like New",
+                "product-gallery": [
+                    "images/products/printer/printer-1.webp"
+                ]
             }
         ]
     },
@@ -90,7 +89,7 @@
         "products": [
             {
                 "id": "monitor-01",
-                "name": "Aiwa MZ2734-K 27 2K QHD IPS 165Hz 1ms HDR10",
+                "name": "Aiwa MZ2734-K 27\" 2K QHD IPS 165Hz 1ms HDR10",
                 "product-description": "Great monitor in excellent condition. Used for a few months. No dead pixels or scratches. Has FreeSync (works with GSync) and HDR10. Comes with all original cables, packaging. Includes a Gembird desk mount for 2 stacked monitors.",
                 "original-price": 570.00,
                 "sale-price": 350.00,
@@ -108,7 +107,7 @@
             },
             {
                 "id": "monitor-02",
-                "name": "HyperX Armada 27 2K QHD IPS 165Hz 1ms HDR10 (has 1 dead pixel, see images)",
+                "name": "HyperX Armada 27\" 2K QHD IPS 165Hz 1ms HDR10 (has 1 dead pixel, see images)",
                 "product-description": "Fantastic monitor with FreeSync (works with GSync) and HDR10. Bought it second hand off of My Market and it had these issues already. Still in excellent condition besides the 1 dead pixel. Comes with all the original cables and the desk mount (has a scratch on the desk mount, see images).",
                 "original-price": 700.00,
                 "sale-price": 275.00,
@@ -127,7 +126,7 @@
             },
             {
                 "id": "monitor-03",
-                "name": "2E H2724B 27 2K QHD 100Hz 4.5ms",
+                "name": "2E H2724B 27\" 2K QHD 100Hz 4.5ms",
                 "product-description": "Used as a secondary monitor for a few months. In perfect condition with no dead pixels or scratches. Comes with all original cables and packaging.",
                 "original-price": 469.00,
                 "sale-price": 250.00,
@@ -203,7 +202,7 @@
                 "name": "Thermal Right Frozen Edge 240 mm ARGB Black",
                 "product-description": "Used for a few months, works perfectly. No leaks or issues. Comes with original packaging and all accessories (minus thermal paste).",
                 "original-price": 215.00,
-                "sale-price": 150.00,
+                "sale-price": 125.00,
                 "purchase-date": "2025-08-06",
                 "purchased-from": "PC Room",
                 "original-packaging": true,
@@ -229,17 +228,6 @@
                     "images/products/case/case-3.webp",
                     "images/products/case/case-4.webp"
                 ]
-            },
-            {
-                "id": "component-03",
-                "name": "1st Player 850w Gold Power Supply (Non-Modular)",
-                "product-description": "Used for a few months, works perfectly. No issues. Comes with original packaging.",
-                "original-price": 150.00,
-                "sale-price": 95.00,
-                "purchase-date": "2025-08-06",
-                "purchased-from": "My Market (brand-new)",
-                "original-packaging": true,
-                "condition": "Like New"
             }
         ]
     },
@@ -263,7 +251,7 @@
                     "images/products/fan/fan-4.webp"
                 ],
                 "product-videos": [
-                    "videos/furniture/xiaomi-deerma-60w-fan-white/fan-video.mp4"
+                    "images/products/fan/fan-video.webm"
                 ]
             },
             {
@@ -386,7 +374,17 @@
                 "purchase-date": "2024-08-10",
                 "purchased-from": "Extra.ge",
                 "original-packaging": true,
-                "condition": "Good"
+                "condition": "Fair",
+                "product-gallery": [
+                    "images/products/walking-pad/walking-pad-1.webp",
+                    "images/products/walking-pad/walking-pad-2.webp",
+                    "images/products/walking-pad/walking-pad-3.webp",
+                    "images/products/walking-pad/walking-pad-4.webp",
+                    "images/products/walking-pad/walking-pad-5.webp"
+                ],
+                "product-videos": [
+                    "images/products/walking-pad/walking-pad-video.webm"
+                ]
             }
         ]
     }
