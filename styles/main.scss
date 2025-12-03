@@ -3,9 +3,11 @@
 @use "init/base" as *;
 @use "init/layout" as *;
 @use "init/typography" as *;
-@use "init/site" as *;
 @use "init/mixins" as *;
 @use "init/colors" as *;
 
 // Handlers
 @use "ui/handlers/buttons" as *;
+
+// Layouts
+@use "ui/layouts/footer" as *;
