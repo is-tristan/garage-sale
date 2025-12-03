@@ -165,7 +165,7 @@
                 "sale-price": 35.00,
                 "purchase-date": "2024-06-15",
                 "purchased-from": "My Market (second-hand)",
-                "original-packaging": "No",
+                "original-packaging": false,
                 "condition": "Good",
                 "product-gallery": [
                     "images/products/logitech-g-pro/logitech-g-pro-1.webp",
@@ -240,7 +240,7 @@
                 "sale-price": 50.00,
                 "purchase-date": "2025-06-24",
                 "purchased-from": "Prime Store",
-                "original-packaging": "No",
+                "original-packaging": false,
                 "condition": "Good",
                 "product-gallery": [
                     "images/products/fan/fan-1.webp",
@@ -258,7 +258,7 @@
                 "sale-price": 50.00,
                 "purchase-date": "2025-02-10",
                 "purchased-from": "Veli",
-                "original-packaging": "No",
+                "original-packaging": false,
                 "condition": "Good",
                 "product-gallery": [
                     "images/products/standing-lamp/standing-lamp-1.webp",
@@ -277,7 +277,7 @@
                 "sale-price": 250.00,
                 "purchase-date": "2025-01-02",
                 "purchased-from": "Zoommer",
-                "original-packaging": "No",
+                "original-packaging": false,
                 "condition": "Like New",
                 "product-gallery": [
                     "images/products/air-purifier/air-purifier-1.webp",
@@ -298,7 +298,7 @@
                 "sale-price": 50.00,
                 "purchase-date": "2025-01-04",
                 "purchased-from": "Prime Store",
-                "original-packaging": "No",
+                "original-packaging": false,
                 "condition": "Good",
                 "product-gallery": [
                     "images/products/air-fryer/air-fryer-1.webp",
@@ -314,7 +314,7 @@
                 "sale-price": 150.00,
                 "purchase-date": "2025-01-04",
                 "purchased-from": "Prime Store",
-                "original-packaging": "No",
+                "original-packaging": true,
                 "condition": "Like New",
                 "product-gallery": [
                     "images/products/blender/blender-1.webp",
@@ -331,7 +331,7 @@
                 "sale-price": 75.00,
                 "purchase-date": "2025-01-04",
                 "purchased-from": "Prime Store",
-                "original-packaging": "No",
+                "original-packaging": false,
                 "condition": "Like New",
                 "product-gallery": [
                     "images/products/coffee-machine/coffee-machine-1.webp",
@@ -347,12 +347,12 @@
             {
                 "id": "gym-01",
                 "name": "Adjustable Dumbbell and Barbell Set - Up to 25kg",
-                "product-description": "Dumbbell and barbell set with adjustable weights. 2x 10kg plates, 4x 2.5kg plates, 4x 1.25kg plates, 4x 0.5kg plates. Acceptable with signs of wear.",
+                "product-description": "Dumbbell and barbell set with adjustable weights. 2x 10kg plates, 4x 2.5kg plates, 4x 1.25kg plates, 4x 0.5kg plates. Acceptable with signs of wear. Comes in a sturdy carrying case.",
                 "original-price": 350.00,
                 "sale-price": 100.00,
                 "purchase-date": "2024-08-10",
                 "purchased-from": "My Market (second-hand)",
-                "original-packaging": true,
+                "original-packaging": false,
                 "condition": "Good",
                 "product-gallery": [
                     "images/products/weights/weights-1.webp",
@@ -369,7 +369,7 @@
                 "sale-price": 350.00,
                 "purchase-date": "2024-08-10",
                 "purchased-from": "Extra.ge",
-                "original-packaging": true,
+                "original-packaging": false,
                 "condition": "Fair",
                 "product-gallery": [
                     "images/products/walking-pad/walking-pad-1.webp",
