@@ -15,13 +15,30 @@ export default function ProductDialog({
     age,
     purchasedFrom,
     originalPackaging,
+    productVideo,
+    productPoster,
 }) {
 
     return (
 
         <dialog className={styles.dialog} aria-labelledby={`product-${id}-name-description`}>
 
-            <button className={styles.dialogClose} aria-label="Close Description Dialog" onClick={(e) => { e.preventDefault(); const dialog = e.currentTarget.closest('dialog'); dialog.close(); }}><XCircleIcon size={32} weight="fill" /></button>
+            <button
+                className={styles.dialogClose}
+                aria-label="Close Description Dialog"
+                onClick={(e) => {
+                    e.preventDefault();
+                    const dialog = e.currentTarget.closest('dialog');
+                    const video = dialog.querySelector('video');
+                    if (video) {
+                        video.pause();
+                        video.currentTime = 0;
+                    }
+                    dialog.close();
+                }}
+            >
+                <XCircleIcon size={32} weight="fill" />
+            </button>
 
             <div className={styles.dialogContainer}>
 
@@ -34,6 +51,19 @@ export default function ProductDialog({
                 </div>
 
                 <div className={styles.dialogContent} id={`product-${id}-name-description`}>
+
+                    {productVideo && (
+                        <video
+                            src={productVideo}
+                            controls
+                            preload="none"
+                            className={styles.productVideo}
+                            style={{ width: '100%', height: 'auto' }}
+                            poster={productPoster ? `/${productPoster}` : undefined}
+                        >
+                            Your browser does not support the video tag.
+                        </video>
+                    )}
 
                     <p>{description}</p>
 

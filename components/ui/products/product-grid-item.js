@@ -88,6 +88,8 @@ export default function productItem({
                 age={age}
                 purchasedFrom={purchasedFrom}
                 originalPackaging={originalPackaging}
+                productVideo={productVideo}
+                productPoster={productGallery && productGallery.length > 0 ? productGallery[0] : null}
             />
 
         </article>

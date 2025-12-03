@@ -28,7 +28,7 @@ export default function productGallery({ name = "", productGallery = [], product
         perPage: 1,
         perMove: 1,
         rewind: true,
-        lazyLoad: 'nearby',
+        lazyLoad: 'near',
         arrows: false,
         pagination: true,
         gap: 0,
@@ -64,18 +64,6 @@ export default function productGallery({ name = "", productGallery = [], product
                             style={{ objectFit: 'cover' }}
                             loading="lazy"
                         />
-
-                        {productVideo[index] && (
-                            <video
-                                poster={`/${imageSrc}`}
-                                src={productVideo[index]}
-                                controls
-                                preload="none"
-                                className={styles.productVideo}
-                            >
-                                Your browser does not support the video tag.
-                            </video>
-                        )}
 
                     </SplideSlide>
 

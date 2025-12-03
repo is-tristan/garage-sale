@@ -16,9 +16,7 @@
                     "images/products/standing-desk/standing-desk-1.webp",
                     "images/products/standing-desk/standing-desk-2.webp"
                 ],
-                "product-videos": [
-                    "videos/standing-desk/standing-desk-video.webm"
-                ]
+                "product-video": "images/products/standing-desk/standing-desk-video.webm"
             },
             {
                 "id": "office-02",
@@ -250,9 +248,7 @@
                     "images/products/fan/fan-3.webp",
                     "images/products/fan/fan-4.webp"
                 ],
-                "product-videos": [
-                    "images/products/fan/fan-video.webm"
-                ]
+                "product-video": "images/products/fan/fan-video.webm"
             },
             {
                 "id": "furn-02",
@@ -379,12 +375,9 @@
                     "images/products/walking-pad/walking-pad-1.webp",
                     "images/products/walking-pad/walking-pad-2.webp",
                     "images/products/walking-pad/walking-pad-3.webp",
-                    "images/products/walking-pad/walking-pad-4.webp",
-                    "images/products/walking-pad/walking-pad-5.webp"
+                    "images/products/walking-pad/walking-pad-4.webp"
                 ],
-                "product-videos": [
-                    "images/products/walking-pad/walking-pad-video.webm"
-                ]
+                "product-video": "images/products/walking-pad/walking-pad-video.webm"
             }
         ]
     }

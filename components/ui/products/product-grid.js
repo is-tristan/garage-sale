@@ -55,6 +55,7 @@ export default function productGrid() {
                             percentageDiscount={product.percentageDiscount}
                             description={product['product-description']}
                             productGallery={product['product-gallery']}
+                            productVideo={product['product-video'] ? `/${product['product-video']}` : null}
                         />
 
                     ))}
