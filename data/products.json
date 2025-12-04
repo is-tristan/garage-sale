@@ -119,7 +119,7 @@
                 "purchased-from": "My Market (second-hand)",
                 "original-packaging": true,
                 "condition": "Good",
-                "is-sold": false,
+                "is-sold": true,
                 "product-gallery": [
                     "images/products/hyper-x-monitor/hyper-x-monitor-1.webp",
                     "images/products/hyper-x-monitor/hyper-x-monitor-2.webp",
@@ -232,7 +232,7 @@
                 "purchased-from": "PC Room",
                 "original-packaging": true,
                 "condition": "Like New",
-                "is-sold": true,
+                "is-sold": false,
                 "product-gallery": [
                     "images/products/case/case-1.webp",
                     "images/products/case/case-2.webp",
