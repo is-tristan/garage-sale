@@ -54,6 +54,7 @@ export default function productGrid() {
                             condition={product.condition}
                             percentageDiscount={product.percentageDiscount}
                             description={product['product-description']}
+                            isSold={product['is-sold']}
                             productGallery={product['product-gallery']}
                             productVideo={product['product-video'] ? `/${product['product-video']}` : null}
                         />

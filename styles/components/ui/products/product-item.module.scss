@@ -6,6 +6,7 @@
     justify-content: space-between;
     gap: 1rem;
     padding: 0.5rem;
+    position: relative;
     border: 2px solid rgba(var(--primaryRgb), 0.075);
     transition: var(--ease);
 
@@ -17,6 +18,28 @@
         box-shadow: var(--boxShadow);
         border-color: rgba(var(--primaryRgb), 0.15);
         transform: translateY(-2px);
+    }
+
+    &.sold {
+        pointer-events: none;
+        opacity: 0.5;
+
+        &::after {
+            content: "SOLD";
+            position: absolute;
+            z-index: 2;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 2rem;
+            font-weight: 700;
+            color: rgba(var(--dangerRgb), 0.8);
+            background: rgba(var(--lightRgb), 0.9);
+            padding: 0.5rem 1rem;
+            border: 2px solid rgba(var(--dangerRgb), 0.8);
+            border-radius: var(--btnRadius);
+            z-index: 2;
+        }
     }
 }
 

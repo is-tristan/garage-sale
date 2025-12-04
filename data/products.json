@@ -12,6 +12,7 @@
                 "purchased-from": "Denizo Furniture",
                 "original-packaging": false,
                 "condition": "Like New",
+                "is-sold": false,
                 "product-gallery": [
                     "images/products/standing-desk/standing-desk-1.webp",
                     "images/products/standing-desk/standing-desk-2.webp"
@@ -28,6 +29,7 @@
                 "purchased-from": "Domino",
                 "original-packaging": false,
                 "condition": "Good",
+                "is-sold": false,
                 "product-gallery": [
                     "images/products/office-chair-grey/office-chair-grey-1.webp",
                     "images/products/office-chair-grey/office-chair-grey-2.webp",
@@ -44,6 +46,7 @@
                 "purchased-from": "Denizo Furniture",
                 "original-packaging": false,
                 "condition": "Good",
+                "is-sold": false,
                 "product-gallery": [
                     "images/products/office-chair-black/office-chair-black-1.webp",
                     "images/products/office-chair-black/office-chair-black-2.webp",
@@ -60,6 +63,7 @@
                 "purchased-from": "Domino",
                 "original-packaging": false,
                 "condition": "Like New",
+                "is-sold": false,
                 "product-gallery": [
                     "images/products/office-chair-child/office-chair-child-1.webp",
                     "images/products/office-chair-child/office-chair-child-2.webp",
@@ -76,6 +80,7 @@
                 "purchased-from": "Prime Store",
                 "original-packaging": false,
                 "condition": "Like New",
+                "is-sold": false,
                 "product-gallery": [
                     "images/products/printer/printer-1.webp"
                 ]
@@ -95,6 +100,7 @@
                 "purchased-from": "Prime Store",
                 "original-packaging": true,
                 "condition": "Like New",
+                "is-sold": true,
                 "product-gallery": [
                     "images/products/aiwa-monitor/aiwa-monitor-1.webp",
                     "images/products/aiwa-monitor/aiwa-monitor-2.webp",
@@ -113,6 +119,7 @@
                 "purchased-from": "My Market (second-hand)",
                 "original-packaging": true,
                 "condition": "Good",
+                "is-sold": false,
                 "product-gallery": [
                     "images/products/hyper-x-monitor/hyper-x-monitor-1.webp",
                     "images/products/hyper-x-monitor/hyper-x-monitor-2.webp",
@@ -132,6 +139,7 @@
                 "purchased-from": "Prime Store",
                 "original-packaging": true,
                 "condition": "Like New",
+                "is-sold": false,
                 "product-gallery": [
                     "images/products/2e-monitor/2e-monitor-1.webp",
                     "images/products/2e-monitor/2e-monitor-2.webp",
@@ -153,6 +161,7 @@
                 "purchased-from": "PC Room",
                 "original-packaging": true,
                 "condition": "Like New",
+                "is-sold": false,
                 "product-gallery": [
                     "images/products/hyper-x-solocast/hyper-x-solocast-1.webp"
                 ]
@@ -162,11 +171,12 @@
                 "name": "Logitech GPro Tenkey-less Mechanical Gaming Keyboard",
                 "product-description": "Keyboard still works fine but the RGB light on the F10 key doesn't work when it goes blue. Also the CTRL keycap's plastic feet broke, so it wobbles a bit when pressed but still works perfectly fine.",
                 "original-price": 150.00,
-                "sale-price": 50.00,
+                "sale-price": 35.00,
                 "purchase-date": "2024-06-15",
                 "purchased-from": "My Market (second-hand)",
                 "original-packaging": false,
                 "condition": "Good",
+                "is-sold": false,
                 "product-gallery": [
                     "images/products/logitech-g-pro/logitech-g-pro-1.webp",
                     "images/products/logitech-g-pro/logitech-g-pro-2.webp",
@@ -184,6 +194,7 @@
                 "purchased-from": "Zoomer",
                 "original-packaging": true,
                 "condition": "Like New",
+                "is-sold": false,
                 "product-gallery": [
                     "images/products/hp-keyboard-combo/hp-keyboard-combo-1.webp",
                     "images/products/hp-keyboard-combo/hp-keyboard-combo-2.webp",
@@ -205,6 +216,7 @@
                 "purchased-from": "PC Room",
                 "original-packaging": true,
                 "condition": "Like New",
+                "is-sold": true,
                 "product-gallery": [
                     "images/products/thermalright-cooler/thermalright-cooler-1.webp",
                     "images/products/thermalright-cooler/thermalright-cooler-2.webp"
@@ -220,6 +232,7 @@
                 "purchased-from": "PC Room",
                 "original-packaging": true,
                 "condition": "Like New",
+                "is-sold": true,
                 "product-gallery": [
                     "images/products/case/case-1.webp",
                     "images/products/case/case-2.webp",
@@ -242,6 +255,7 @@
                 "purchased-from": "Prime Store",
                 "original-packaging": false,
                 "condition": "Good",
+                "is-sold": false,
                 "product-gallery": [
                     "images/products/fan/fan-1.webp",
                     "images/products/fan/fan-2.webp",
@@ -260,6 +274,7 @@
                 "purchased-from": "Veli",
                 "original-packaging": false,
                 "condition": "Good",
+                "is-sold": false,
                 "product-gallery": [
                     "images/products/standing-lamp/standing-lamp-1.webp",
                     "images/products/standing-lamp/standing-lamp-2.webp",
@@ -279,6 +294,7 @@
                 "purchased-from": "Zoommer",
                 "original-packaging": false,
                 "condition": "Like New",
+                "is-sold": false,
                 "product-gallery": [
                     "images/products/air-purifier/air-purifier-1.webp",
                     "images/products/air-purifier/air-purifier-2.webp",
@@ -300,6 +316,7 @@
                 "purchased-from": "Prime Store",
                 "original-packaging": false,
                 "condition": "Good",
+                "is-sold": false,
                 "product-gallery": [
                     "images/products/air-fryer/air-fryer-1.webp",
                     "images/products/air-fryer/air-fryer-2.webp",
@@ -316,6 +333,7 @@
                 "purchased-from": "Prime Store",
                 "original-packaging": true,
                 "condition": "Like New",
+                "is-sold": false,
                 "product-gallery": [
                     "images/products/blender/blender-1.webp",
                     "images/products/blender/blender-2.webp",
@@ -333,6 +351,7 @@
                 "purchased-from": "Prime Store",
                 "original-packaging": false,
                 "condition": "Like New",
+                "is-sold": false,
                 "product-gallery": [
                     "images/products/coffee-machine/coffee-machine-1.webp",
                     "images/products/coffee-machine/coffee-machine-2.webp",
@@ -354,6 +373,7 @@
                 "purchased-from": "My Market (second-hand)",
                 "original-packaging": false,
                 "condition": "Good",
+                "is-sold": false,
                 "product-gallery": [
                     "images/products/weights/weights-1.webp",
                     "images/products/weights/weights-2.webp",
@@ -371,6 +391,7 @@
                 "purchased-from": "Extra.ge",
                 "original-packaging": false,
                 "condition": "Fair",
+                "is-sold": false,
                 "product-gallery": [
                     "images/products/walking-pad/walking-pad-1.webp",
                     "images/products/walking-pad/walking-pad-2.webp",

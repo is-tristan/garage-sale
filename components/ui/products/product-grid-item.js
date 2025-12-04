@@ -11,7 +11,7 @@ import { formatCategory } from "@/utils/helpers/product-helpers";
 import styles from "@/styles/components/ui/products/product-item.module.scss";
 
 // Icons
-import { EyeIcon, WhatsappLogoIcon } from "@phosphor-icons/react/dist/ssr";
+import { EyeIcon } from "@phosphor-icons/react/dist/ssr";
 
 // No Image Placeholder
 const noImage = ["images/no-image.svg"];
@@ -30,12 +30,12 @@ export default function productItem({
     productGallery = [],
     productVideo = [],
     description,
-
+    isSold = false
 }) {
 
     return (
 
-        <article className={`${styles.productItem} hasRadius hasShadow bgLight`} key={id} aria-labelledby={`product-${id}-name`}>
+        <article className={`${styles.productItem} hasRadius hasShadow bgLight ${isSold ? styles.sold : undefined}`} key={id} aria-labelledby={`product-${id}-name`}>
 
             <div className={styles.productGallery}>
 
