@@ -161,7 +161,7 @@
                 "purchased-from": "PC Room",
                 "original-packaging": true,
                 "condition": "Like New",
-                "is-sold": false,
+                "is-sold": true,
                 "product-gallery": [
                     "images/products/hyper-x-solocast/hyper-x-solocast-1.webp"
                 ]
@@ -232,7 +232,7 @@
                 "purchased-from": "PC Room",
                 "original-packaging": true,
                 "condition": "Like New",
-                "is-sold": false,
+                "is-sold": true,
                 "product-gallery": [
                     "images/products/case/case-1.webp",
                     "images/products/case/case-2.webp",
@@ -294,7 +294,7 @@
                 "purchased-from": "Zoommer",
                 "original-packaging": false,
                 "condition": "Like New",
-                "is-sold": false,
+                "is-sold": true,
                 "product-gallery": [
                     "images/products/air-purifier/air-purifier-1.webp",
                     "images/products/air-purifier/air-purifier-2.webp",
