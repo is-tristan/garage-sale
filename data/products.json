@@ -46,7 +46,7 @@
                 "purchased-from": "Denizo Furniture",
                 "original-packaging": false,
                 "condition": "Good",
-                "is-sold": false,
+                "is-sold": true,
                 "product-gallery": [
                     "images/products/office-chair-black/office-chair-black-1.webp",
                     "images/products/office-chair-black/office-chair-black-2.webp",
@@ -176,7 +176,7 @@
                 "purchased-from": "My Market (second-hand)",
                 "original-packaging": false,
                 "condition": "Good",
-                "is-sold": false,
+                "is-sold": true,
                 "product-gallery": [
                     "images/products/logitech-g-pro/logitech-g-pro-1.webp",
                     "images/products/logitech-g-pro/logitech-g-pro-2.webp",
@@ -194,7 +194,7 @@
                 "purchased-from": "Zoomer",
                 "original-packaging": true,
                 "condition": "Like New",
-                "is-sold": false,
+                "is-sold": true,
                 "product-gallery": [
                     "images/products/hp-keyboard-combo/hp-keyboard-combo-1.webp",
                     "images/products/hp-keyboard-combo/hp-keyboard-combo-2.webp",
@@ -373,7 +373,7 @@
                 "purchased-from": "My Market (second-hand)",
                 "original-packaging": false,
                 "condition": "Good",
-                "is-sold": false,
+                "is-sold": true,
                 "product-gallery": [
                     "images/products/weights/weights-1.webp",
                     "images/products/weights/weights-2.webp",
