@@ -12,7 +12,7 @@
                 "purchased-from": "Denizo Furniture",
                 "original-packaging": false,
                 "condition": "Like New",
-                "is-sold": false,
+                "is-sold": true,
                 "product-gallery": [
                     "images/products/standing-desk/standing-desk-1.webp",
                     "images/products/standing-desk/standing-desk-2.webp"
@@ -80,7 +80,7 @@
                 "purchased-from": "Prime Store",
                 "original-packaging": false,
                 "condition": "Like New",
-                "is-sold": false,
+                "is-sold": true,
                 "product-gallery": [
                     "images/products/printer/printer-1.webp"
                 ]
@@ -247,45 +247,6 @@
         "products": [
             {
                 "id": "furn-01",
-                "name": "Xiaomi Deerma 60W Fan (White)",
-                "product-description": "Floor fan with 3 speed setting. There's some aesthetic damage to the base (see images) but it works perfectly fine. Used for a few months only.",
-                "original-price": 145.00,
-                "sale-price": 40.00,
-                "purchase-date": "2025-06-24",
-                "purchased-from": "Prime Store",
-                "original-packaging": false,
-                "condition": "Good",
-                "is-sold": false,
-                "product-gallery": [
-                    "images/products/fan/fan-1.webp",
-                    "images/products/fan/fan-2.webp",
-                    "images/products/fan/fan-3.webp",
-                    "images/products/fan/fan-4.webp"
-                ],
-                "product-video": "images/products/fan/fan-video.webm"
-            },
-            {
-                "id": "furn-02",
-                "name": "Atmosphera Tripod Floor Lamp (Dark Grey)",
-                "product-description": "Floor lamp with tripod stand (no bulb included). In good condition with some small dents on the shader (see images).",
-                "original-price": 126.00,
-                "sale-price": 60.00,
-                "purchase-date": "2025-02-10",
-                "purchased-from": "Veli",
-                "original-packaging": false,
-                "condition": "Good",
-                "is-sold": false,
-                "product-gallery": [
-                    "images/products/standing-lamp/standing-lamp-1.webp",
-                    "images/products/standing-lamp/standing-lamp-2.webp",
-                    "images/products/standing-lamp/standing-lamp-3.webp",
-                    "images/products/standing-lamp/standing-lamp-4.webp",
-                    "images/products/standing-lamp/standing-lamp-5.webp",
-                    "images/products/standing-lamp/standing-lamp-6.webp"
-                ]
-            },
-            {
-                "id": "furn-03",
                 "name": "Xiaomi Smart Air Purifier 4 Pro (White)",
                 "product-description": "In excellent condition, works perfectly. Filter has 60 days left on it. You can purchase a new filter from Zoommer (139 ₾). Link here: https://zoommer.ge/sakhlis-movla/xiaomi-smart-air-purifier-4-pro-filter-p36107",
                 "original-price": 679.00,
@@ -316,7 +277,7 @@
                 "purchased-from": "Prime Store",
                 "original-packaging": false,
                 "condition": "Good",
-                "is-sold": false,
+                "is-sold": true,
                 "product-gallery": [
                     "images/products/air-fryer/air-fryer-1.webp",
                     "images/products/air-fryer/air-fryer-2.webp",
@@ -391,7 +352,7 @@
                 "purchased-from": "Extra.ge",
                 "original-packaging": false,
                 "condition": "Fair",
-                "is-sold": false,
+                "is-sold": true,
                 "product-gallery": [
                     "images/products/walking-pad/walking-pad-1.webp",
                     "images/products/walking-pad/walking-pad-2.webp",
